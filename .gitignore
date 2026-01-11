@@ -1,0 +1,17 @@
+# Ignore JSON backups
+exports/*.json
+
+# Ignore system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Windows PowerShell temporary files
+*.ps1xml
+*.psc1
+*.pdd
+*.tmp
+*.bak
+
+# VSCode
+*.code-workspace
