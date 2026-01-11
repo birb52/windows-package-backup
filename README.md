@@ -53,9 +53,8 @@ windows-package-backup/
 └─ LICENSE
 ```
 
-Notes
-    Scoop uses package names instead of IDs, so ensure the names are correct.
+## Notes
 
-    Winget and Chocolatey use package IDs to avoid mismatches during reinstall.
-
-    The script will skip any package if its ID is missing.
+  -  Scoop uses package names instead of IDs, so ensure the names are correct.
+  -  Winget and Chocolatey use package IDs to avoid mismatches during reinstall.
+  -  The script will skip any package if its ID is missing.
